@@ -60,12 +60,12 @@ export const DownLoadApp = () => {
       >
         <Box sx={{ mx: "auto" }}>
           <h1>The Sleepi App</h1>
-          <Box sx={{ width: "380px", mt: "20px", mx: "auto" }}>
-            <h3 className="text__gray">
+          <Box sx={{ width: "380px", mt: "80px", mx: "auto" }}>
+            <h3 className="opacity--7">
               Can't sleep? Try bedtime stories, sleep sounds & meditations to
               help you fall asleep fast.{" "}
             </h3>
-            <Box className="downloadapp__img__box" sx={{ mt: "20px", mx: "auto", display: "flex" }}>
+            <Box className="downloadapp__img__box" sx={{ mt: "60px", mx: "auto", display: "flex" }}>
               <ButtonAppStore />
             </Box>
           </Box>

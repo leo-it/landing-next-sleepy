@@ -16,7 +16,7 @@ export const CardBenefit = ({ image, title, text }) => {
       <Box sx={{mb:"30px"}}>
         <h4 >{title}</h4>
       </Box>
-      <Box  > <h5 className="text__gray">{text}</h5></Box>
+      <Box  > <h5 className="opacity--7">{text}</h5></Box>
     </Box>
   );
 };
