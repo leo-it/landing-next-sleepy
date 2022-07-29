@@ -1,7 +1,14 @@
 import { Box } from "@mui/material";
 import React from "react";
+import Fade from "react-reveal/Fade";
 
-export const CardUsersSay = ({profilePicture, fullname, country, stars, description }) => {
+export const CardUsersSay = ({
+  profilePicture,
+  fullname,
+  country,
+  stars,
+  description,
+}) => {
   return (
     <Box
       className=""
@@ -23,21 +30,38 @@ export const CardUsersSay = ({profilePicture, fullname, country, stars, descript
           color: "white",
         }}
       >
-        <Box sx={{display:"flex"}}>
-        <Box sx={{mr:{xs:"15px",md:"20px"}, width:{xs:"50px",md:"50px"}, height:{xs:"50px",md:"50px"},}}>
-            <img className="circle__border" src={profilePicture} width={"100%"} height={"100%"}/>
-        </Box>
-        <Box sx={{mt:{xs:1, md:0}}}>
-
-        <h5>{fullname}</h5>
-        <Box
-          sx={{
-            mb: { xs: "12px", md: "20px" },mt: { xs: "3px", md: "5px" },
-          }}
-        >
-          <h5 className="opacity--7">{country}</h5>
-        </Box>{" "}
-        </Box>
+        <Box sx={{ display: "flex" }}>
+          <Box
+            sx={{
+              mr: { xs: "15px", md: "20px" },
+              width: { xs: "50px", md: "50px" },
+              height: { xs: "50px", md: "50px" },
+            }}
+          >
+            <Fade bottom>
+              <img
+                className="circle__border"
+                src={profilePicture}
+                width={"100%"}
+                height={"100%"}
+              />
+            </Fade>
+          </Box>
+          <Box sx={{ mt: { xs: 1, md: 0 } }}>
+            <Fade bottom>
+              <h5>{fullname}</h5>
+            </Fade>
+            <Box
+              sx={{
+                mb: { xs: "12px", md: "20px" },
+                mt: { xs: "3px", md: "5px" },
+              }}
+            >
+              <Fade bottom>
+                <h5 className="opacity--7">{country}</h5>
+              </Fade>
+            </Box>{" "}
+          </Box>
         </Box>
         <Box
           sx={{
@@ -56,16 +80,19 @@ export const CardUsersSay = ({profilePicture, fullname, country, stars, descript
                 height: { xs: "20px", md: "26px" },
               }}
             >
-              <img
-                src="https://www.sleepiest.com/assets/img/review/1.svg"
-                width={"100%"}
-                height={"100%"}
-              />
+              <Fade bottom>
+                <img
+                  src="https://www.sleepiest.com/assets/img/review/1.svg"
+                  width={"100%"}
+                  height={"100%"}
+                />
+              </Fade>
             </Box>
           ))}
-          
         </Box>
-        <h6 sx={{}}>{description}</h6>
+        <Fade bottom>
+          <h6 sx={{}}>{description}</h6>
+        </Fade>
       </Box>
     </Box>
   );

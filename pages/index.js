@@ -1,8 +1,8 @@
-import { Albums } from "../src/components/Albums";
-import { BedtimeStories } from "../src/components/BedtimeStories";
-import { Benefits } from "../src/components/Benefits";
-import { DownLoadApp } from "../src/components/DownLoadApp";
-import { UsersSay } from "../src/components/UsersSay";
+import { Albums } from "../src/modules/Albums";
+import { BedtimeStories } from "../src/modules/BedtimeStories";
+import { Benefits } from "../src/modules/Benefits";
+import { DownLoadApp } from "../src/modules/DownLoadApp";
+import { UsersSay } from "../src/modules/UsersSay";
 
 export default function Home() {
   return (
