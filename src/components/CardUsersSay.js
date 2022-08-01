@@ -57,9 +57,9 @@ export const CardUsersSay = ({
                 mt: { xs: "3px", md: "5px" },
               }}
             >
-              <Fade bottom>
-                <h5 className="opacity--7">{country}</h5>
-              </Fade>
+              <h5 className="opacity--7">
+                <Fade bottom>{country}</Fade>
+              </h5>
             </Box>{" "}
           </Box>
         </Box>

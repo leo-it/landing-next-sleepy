@@ -6,13 +6,13 @@ import Fade from "react-reveal/Fade";
 
 export const Benefits = () => {
   return (
-    <Box sx={{ position: "relative" }}>
+    <Box sx={{ position: "relative" ,width: "90vw" }}>
       <Box
         sx={{
           display: "flex",
           justifyContent: "center",
           mx: "auto",
-          width: "100vw",
+          width: "98vw",
         }}
       >
         <Box sx={{ display: { xs: "block", md: "flex" } }}>
@@ -45,7 +45,7 @@ export const Benefits = () => {
           justifyContent: "center",
           alignItems:"center",
           mx: "auto",
-          width: "100vw", mb:"10px"
+          width: "98vw", mb:"10px"
         }}
       >
         <Fade bottom>

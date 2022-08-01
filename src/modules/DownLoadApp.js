@@ -61,7 +61,7 @@ export const DownLoadApp = () => {
       >
         <Box sx={{ mx: "auto" }}>
           <Fade bottom>
-            <h1>The Sleepi App</h1>
+            <h1>The Sleepy App</h1>
           </Fade>
 
           <Box sx={{ width: "380px", mt: "80px", mx: "auto" }}>

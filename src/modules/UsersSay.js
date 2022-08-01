@@ -27,6 +27,58 @@ export const UsersSay = () => {
             stars={[1, 1, 1, 1]}
             description="I downloaded this app and was like “is it really going to help me fall asleep faster?” And it did. I was asleep within 5 minutes!"
           />{" "}
+          {isMobile ? (
+            ""
+          ) : (
+            <>
+              <CardUsersSay
+                profilePicture="https://www.sleepiest.com/wp-content/uploads/2020/11/100x100_sleepiest_reviewer_8.jpg"
+                fullname={"Dalma "}
+                country={"UK"}
+                stars={[1, 1, 1, 1]}
+                description="I downloaded this app and was like “is it really going to help me fall asleep faster?” And it did. I was asleep within 5 minutes!"
+              />
+
+              <CardUsersSay
+                profilePicture="https://www.sleepiest.com/wp-content/uploads/2020/09/100x100_sleepiest_reviewer_2.jpg"
+                fullname={"Juana "}
+                country={"UK"}
+                stars={[1, 1, 1, 1]}
+                description="I downloaded this app and was like “is it really going to help me fall asleep faster?” And it did. I was asleep within 5 minutes!"
+              />
+            </>
+          )}
+        </Box>
+        <Box sx={{ display: "flex" }} className="keen-slider__slide ">
+          <CardUsersSay
+            profilePicture="https://www.sleepiest.com/wp-content/uploads/2020/11/100x100_sleepiest_reviewer_8.jpg"
+            fullname={"Norma"}
+            country={"UK"}
+            stars={[1, 1, 1, 1]}
+            description="I downloaded this app and was like “is it really going to help me fall asleep faster?” And it did. I was asleep within 5 minutes!"
+          />
+          {isMobile ? (
+            ""
+          ) : (
+            <>
+              <CardUsersSay
+                profilePicture="https://www.sleepiest.com/wp-content/uploads/2020/09/100x100_sleepiest_reviewer_2.jpg"
+                fullname={"Carla "}
+                country={"UK"}
+                stars={[1, 1, 1, 1]}
+                description="I downloaded this app and was like “is it really going to help me fall asleep faster?” And it did. I was asleep within 5 minutes!"
+              />
+              <CardUsersSay
+                profilePicture="https://www.sleepiest.com/wp-content/uploads/2020/09/100x100_sleepiest_reviewer_2.jpg"
+                fullname={"Carla "}
+                country={"UK"}
+                stars={[1, 1, 1, 1]}
+                description="I downloaded this app and was like “is it really going to help me fall asleep faster?” And it did. I was asleep within 5 minutes!"
+              />
+            </>
+          )}
+        </Box>{" "}
+        <Box sx={{ display: "flex" }} className="keen-slider__slide ">
           <CardUsersSay
             profilePicture="https://www.sleepiest.com/wp-content/uploads/2020/09/100x100_sleepiest_reviewer_2.jpg"
             fullname={"Carla "}
@@ -37,64 +89,24 @@ export const UsersSay = () => {
           {isMobile ? (
             ""
           ) : (
-            <CardUsersSay
-              profilePicture="https://www.sleepiest.com/wp-content/uploads/2020/09/100x100_sleepiest_reviewer_2.jpg"
-              fullname={"Carla "}
-              country={"UK"}
-              stars={[1, 1, 1, 1]}
-              description="I downloaded this app and was like “is it really going to help me fall asleep faster?” And it did. I was asleep within 5 minutes!"
-            />
+            <>
+              <CardUsersSay
+                profilePicture="https://www.sleepiest.com/wp-content/uploads/2020/09/100x100_sleepiest_reviewer_2.jpg"
+                fullname={"Carla "}
+                country={"UK"}
+                stars={[1, 1, 1, 1]}
+                description="I downloaded this app and was like “is it really going to help me fall asleep faster?” And it did. I was asleep within 5 minutes!"
+              />
+
+              <CardUsersSay
+                profilePicture="https://www.sleepiest.com/wp-content/uploads/2020/09/100x100_sleepiest_reviewer_2.jpg"
+                fullname={"Carla "}
+                country={"UK"}
+                stars={[1, 1, 1, 1]}
+                description="I downloaded this app and was like “is it really going to help me fall asleep faster?” And it did. I was asleep within 5 minutes!"
+              />
+            </>
           )}
-        </Box>
-        <Box sx={{ display: "flex" }} className="keen-slider__slide ">
-          <CardUsersSay
-            profilePicture="https://www.sleepiest.com/wp-content/uploads/2020/09/100x100_sleepiest_reviewer_2.jpg"
-            fullname={"Carla "}
-            country={"UK"}
-            stars={[1, 1, 1, 1]}
-            description="I downloaded this app and was like “is it really going to help me fall asleep faster?” And it did. I was asleep within 5 minutes!"
-          />
-          <CardUsersSay
-            profilePicture="https://www.sleepiest.com/wp-content/uploads/2020/09/100x100_sleepiest_reviewer_2.jpg"
-            fullname={"Carla "}
-            country={"UK"}
-            stars={[1, 1, 1, 1]}
-            description="I downloaded this app and was like “is it really going to help me fall asleep faster?” And it did. I was asleep within 5 minutes!"
-          />
-        {isMobile ? (
-            ""
-          ) :   <CardUsersSay
-            profilePicture="https://www.sleepiest.com/wp-content/uploads/2020/09/100x100_sleepiest_reviewer_2.jpg"
-            fullname={"Carla "}
-            country={"UK"}
-            stars={[1, 1, 1, 1]}
-            description="I downloaded this app and was like “is it really going to help me fall asleep faster?” And it did. I was asleep within 5 minutes!"
-          />}
-        </Box>{" "}
-        <Box sx={{ display: "flex" }} className="keen-slider__slide ">
-          <CardUsersSay
-            profilePicture="https://www.sleepiest.com/wp-content/uploads/2020/09/100x100_sleepiest_reviewer_2.jpg"
-            fullname={"Carla "}
-            country={"UK"}
-            stars={[1, 1, 1, 1]}
-            description="I downloaded this app and was like “is it really going to help me fall asleep faster?” And it did. I was asleep within 5 minutes!"
-          />
-          <CardUsersSay
-            profilePicture="https://www.sleepiest.com/wp-content/uploads/2020/09/100x100_sleepiest_reviewer_2.jpg"
-            fullname={"Carla "}
-            country={"UK"}
-            stars={[1, 1, 1, 1]}
-            description="I downloaded this app and was like “is it really going to help me fall asleep faster?” And it did. I was asleep within 5 minutes!"
-          />
-        {isMobile ? (
-            ""
-          ) :   <CardUsersSay
-            profilePicture="https://www.sleepiest.com/wp-content/uploads/2020/09/100x100_sleepiest_reviewer_2.jpg"
-            fullname={"Carla "}
-            country={"UK"}
-            stars={[1, 1, 1, 1]}
-            description="I downloaded this app and was like “is it really going to help me fall asleep faster?” And it did. I was asleep within 5 minutes!"
-          />}
         </Box>
       </Carousel>
     </Box>

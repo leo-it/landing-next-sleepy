@@ -22,9 +22,12 @@ export const CardBenefit = ({ image, title, text }) => {
         </Fade>
       </Box>
       <Box>
+          <h5 className="opacity--7">
         <Fade bottom>
-          <h5 className="opacity--7">{text}</h5>
+            
+            {text}
         </Fade>
+            </h5>
       </Box>
     </Box>
   );
